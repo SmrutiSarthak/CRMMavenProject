@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class CampaignModule {
 	@Test
 	public void createCampaign() {
-//	System.setProperty("webdriver.chrome.driver", "Path of driver executable");
+	System.setProperty("webdriver.chrome.driver", "Path of driver executable");
 //	WebDriver driver=new ChromeDriver();
 //	driver.manage().window().maximize();
 //	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
